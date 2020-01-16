@@ -11,4 +11,9 @@ public class Slab : MonoBehaviour
   {
     label.text = number.ToString();
   }
+
+  public void SetNumber(int newNumber)
+  {
+    number = newNumber;
+  }
 }
